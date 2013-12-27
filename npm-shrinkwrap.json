@@ -1,0 +1,49 @@
+{
+  "name": "passport-saml",
+  "version": "0.0.5",
+  "dependencies": {
+    "passport": {
+      "version": "0.1.17",
+      "from": "passport@0.1.x",
+      "dependencies": {
+        "pkginfo": {
+          "version": "0.2.3",
+          "from": "pkginfo@0.2.x"
+        },
+        "pause": {
+          "version": "0.0.1",
+          "from": "pause@0.0.1"
+        }
+      }
+    },
+    "xml2js": {
+      "version": "0.2.0",
+      "from": "xml2js@0.2.0",
+      "dependencies": {
+        "sax": {
+          "version": "0.5.8",
+          "from": "sax@>=0.1.1"
+        }
+      }
+    },
+    "xml-crypto": {
+      "version": "0.0.21",
+      "from": "xml-crypto@0.0.x",
+      "dependencies": {
+        "xmldom": {
+          "version": "0.1.16",
+          "from": "xmldom@git+https://github.com/yaronn/xmldom.git",
+          "resolved": "git+https://github.com/yaronn/xmldom.git#68768a6a31f55b0737d7beb88807bc80146b2651"
+        },
+        "xpath.js": {
+          "version": "0.0.3",
+          "from": "xpath.js@>=0.0.3"
+        }
+      }
+    },
+    "xmldom": {
+      "version": "0.1.17",
+      "from": "xmldom@0.1.x"
+    }
+  }
+}
